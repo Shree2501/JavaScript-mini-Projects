@@ -1,0 +1,25 @@
+#CC{
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+    font-family: Arial;
+}
+
+#btn{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: hsla(112, 75%, 27%, 0.876);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsla(120, 90%, 40%, 0.749);
+}
