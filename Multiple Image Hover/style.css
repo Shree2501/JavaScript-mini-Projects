@@ -1,0 +1,41 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#main{
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+.elem{
+    height: 90px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.elem h1{
+    font-family: monospace;
+    font-size: 6vw;
+    mix-blend-mode: difference;
+    z-index: 9;
+    position: relative;
+}
+
+.elem img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    position: fixed;
+    opacity: 0;
+    transition: all linear 0.05s;
+    pointer-events: none;
+}
